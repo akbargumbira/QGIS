@@ -44,6 +44,7 @@
 %Include qgsmaptopixelgeometrysimplifier.sip
 %Include qgsgml.sip
 %Include qgsgmlschema.sip
+%Include qgshelloworld.sip
 %Include qgshttptransaction.sip
 %Include qgslabel.sip
 %Include qgslabelattributes.sip

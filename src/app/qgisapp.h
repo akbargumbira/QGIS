@@ -99,6 +99,7 @@ class QgsTileScaleWidget;
 #include "qgssnappingdialog.h"
 #include "qgspluginmanager.h"
 #include "qgsmessagebar.h"
+#include "qgshelloworld.h"
 
 #include "ui_qgisapp.h"
 

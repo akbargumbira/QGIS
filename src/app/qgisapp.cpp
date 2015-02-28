@@ -4709,12 +4709,14 @@ void QgisApp::touch()
 
 void QgisApp::zoomFull()
 {
-  mMapCanvas->zoomToFullExtent();
+//  mMapCanvas->zoomToFullExtent();
+    QgsHelloWorld hw("akbar");
+    QMessageBox::information(this, "Hello world", hw.sayHello());
 }
 
 void QgisApp::zoomToPrevious()
 {
-  mMapCanvas->zoomToPreviousExtent();
+//  mMapCanvas->zoomToPreviousExtent();
 }
 
 void QgisApp::zoomToNext()
